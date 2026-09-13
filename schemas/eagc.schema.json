@@ -1,0 +1,275 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "eagc.schema.json",
+  "title": "EAGC GraphPrediction Schema v1.0",
+  "type": "object",
+  "required": ["doc_id", "claim_id", "nodes", "edges", "evidence_sets", "meta"],
+  "additionalProperties": false,
+  "properties": {
+    "doc_id": { "type": "string", "minLength": 1 },
+    "claim_id": { "type": "string", "minLength": 1 },
+
+    "nodes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/Node" }
+    },
+
+    "edges": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Edge" }
+    },
+
+    "evidence_sets": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/EvidenceSet" }
+    },
+
+    "warnings": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+
+    "meta": { "$ref": "#/$defs/Meta" }
+  },
+
+  "$defs": {
+    "Meta": {
+      "type": "object",
+      "required": ["model", "seed"],
+      "additionalProperties": true,
+      "properties": {
+        "model": { "type": "string", "minLength": 1 },
+        "seed": { "type": "integer" },
+        "timestamp": { "type": "string" },
+        "prompt_version": { "type": "string" },
+        "git_commit": { "type": "string" }
+      }
+    },
+
+    "Topic": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "coarse": { "type": "string" },
+        "sasm": { "type": "string" }
+      }
+    },
+
+    "ClaimType": {
+      "type": "string",
+      "enum": ["T", "A", "M", "O", "D"]
+    },
+
+    "NullableClaimType": {
+      "anyOf": [
+        { "$ref": "#/$defs/ClaimType" },
+        { "type": "null" }
+      ]
+    },
+
+    "NullableBool": {
+      "anyOf": [
+        { "type": "boolean" },
+        { "type": "null" }
+      ]
+    },
+
+    "NullableString": {
+      "anyOf": [
+        { "type": "string", "minLength": 1 },
+        { "type": "null" }
+      ]
+    },
+
+    "Node": {
+      "type": "object",
+      "required": ["node_id", "node_type", "attrs"],
+      "additionalProperties": false,
+      "properties": {
+        "node_id": { "type": "string", "minLength": 1 },
+
+        "node_type": {
+          "type": "string",
+          "enum": ["Claim", "Target", "Action", "Metric", "Outcome", "Definition"]
+        },
+
+        "text": { "type": ["string", "null"] },
+
+        "topic": { "$ref": "#/$defs/Topic" },
+        "source_span_evid_id": { "$ref": "#/$defs/NullableString" },
+
+        "attrs": { "type": "object" },
+
+        "primary_type": { "$ref": "#/$defs/NullableClaimType" },
+        "secondary_type": { "$ref": "#/$defs/NullableClaimType" },
+
+        "numeric_needed": { "$ref": "#/$defs/NullableBool" },
+        "definition_needed": { "$ref": "#/$defs/NullableBool" },
+        "table_likely": { "$ref": "#/$defs/NullableBool" },
+
+        "claim_mention_id": { "$ref": "#/$defs/NullableString" },
+        "canonical_claim_id": { "$ref": "#/$defs/NullableString" }
+      },
+
+      "allOf": [
+        {
+          "if": { "properties": { "node_type": { "const": "Claim" } } },
+          "then": {
+            "required": ["text"],
+            "properties": {
+              "attrs": {
+                "type": "object",
+                "additionalProperties": true
+              }
+            }
+          }
+        },
+
+        {
+          "if": { "properties": { "node_type": { "const": "Target" } } },
+          "then": { "properties": { "attrs": { "$ref": "#/$defs/TargetAttrs" } } }
+        },
+
+        {
+          "if": { "properties": { "node_type": { "const": "Action" } } },
+          "then": { "properties": { "attrs": { "$ref": "#/$defs/ActionAttrs" } } }
+        },
+
+        {
+          "if": { "properties": { "node_type": { "const": "Metric" } } },
+          "then": { "properties": { "attrs": { "$ref": "#/$defs/MetricAttrs" } } }
+        },
+
+        {
+          "if": { "properties": { "node_type": { "const": "Outcome" } } },
+          "then": { "properties": { "attrs": { "$ref": "#/$defs/OutcomeAttrs" } } }
+        },
+
+        {
+          "if": { "properties": { "node_type": { "const": "Definition" } } },
+          "then": { "properties": { "attrs": { "$ref": "#/$defs/DefinitionAttrs" } } }
+        }
+      ]
+    },
+
+    "TargetAttrs": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "target_year": { "type": ["integer", "null"], "minimum": 1800, "maximum": 2200 },
+        "baseline_year": { "type": ["integer", "null"], "minimum": 1800, "maximum": 2200 },
+        "direction": { "type": "string", "enum": ["reduce", "increase", "maintain", "neutral", "unknown"] },
+        "value": { "type": ["number", "null"] },
+        "unit": { "type": ["string", "null"] }
+      }
+    },
+
+    "ActionAttrs": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": { "type": "string", "enum": ["implemented", "planning", "indeterminate"] },
+        "action_category": { "type": ["string", "null"] },
+        "time_anchor_year": { "type": ["integer", "null"], "minimum": 1800, "maximum": 2200 }
+      }
+    },
+
+    "MetricAttrs": {
+      "type": "object",
+      "required": ["metric_name"],
+      "additionalProperties": false,
+      "properties": {
+        "metric_name": { "type": "string", "minLength": 1 },
+        "scope": { "type": ["string", "null"] },
+        "unit": { "type": ["string", "null"] },
+        "denominator": { "type": ["string", "null"] }
+      }
+    },
+
+    "OutcomeAttrs": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "year": { "type": ["integer", "null"], "minimum": 1800, "maximum": 2200 },
+        "value": { "type": ["number", "null"] },
+        "value_type": { "type": "string", "enum": ["absolute", "delta", "ratio", "boolean", "ordinal", "unknown"] },
+        "unit": { "type": ["string", "null"] },
+        "baseline_year": { "type": ["integer", "null"], "minimum": 1800, "maximum": 2200 },
+        "polarity": { "type": "string", "enum": ["improved", "worsened", "neutral", "unknown"] }
+      }
+    },
+
+    "DefinitionAttrs": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "definition_type": {
+          "type": "string",
+          "enum": ["methodology", "boundary", "scope", "assurance", "standard_reference", "glossary", "other"]
+        },
+        "standard": { "type": ["string", "null"] },
+        "scope_covered": { "type": "array", "items": { "type": "string" } },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "Edge": {
+      "type": "object",
+      "required": ["edge_type", "src", "dst"],
+      "additionalProperties": false,
+      "properties": {
+        "edge_type": { "type": "string", "enum": ["supports", "defines", "measures", "associated_with", "contradicts"] },
+        "src": { "type": "string", "minLength": 1 },
+        "dst": { "type": "string", "minLength": 1 }
+      }
+    },
+
+    "EvidenceLink": {
+      "type": "object",
+      "required": ["evid_id", "relation", "importance"],
+      "additionalProperties": false,
+      "properties": {
+        "evid_id": { "type": "string", "minLength": 1 },
+
+        "relation": {
+          "type": "string",
+          "enum": ["numeric_support", "qualitative_support", "definition_support", "background", "contradiction"]
+        },
+
+        "importance": { "type": "string", "enum": ["primary", "secondary"] },
+
+        "is_manual_add": { "type": "boolean" },
+
+        "provenance": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "from_candidate_unit_id": { "type": ["string", "null"] },
+            "retrieval_rank": { "type": ["integer", "null"], "minimum": 1 },
+            "pool": { "type": ["string", "null"], "enum": ["text", "table", "definition", "unknown", null] },
+            "score_in_pool": {
+              "description": "RRF retrieval score of the cited candidate unit at annotation time",
+              "type": ["number", "null"]
+            }
+          }
+        }
+      }
+    },
+
+    "EvidenceSet": {
+      "type": "object",
+      "required": ["set_id", "links"],
+      "additionalProperties": false,
+      "properties": {
+        "set_id": { "type": "string", "minLength": 1 },
+        "links": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/EvidenceLink" }
+        }
+      }
+    }
+  }
+}

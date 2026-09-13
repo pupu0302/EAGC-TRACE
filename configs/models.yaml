@@ -1,0 +1,107 @@
+# ==========================================
+# LLM model configuration
+# ==========================================
+
+# Default model (can be overridden at runtime)
+default_model: "gpt4o"
+
+# Model definitions
+models:
+  # ============================================================
+  # Mock mode (used for testing; makes no API calls)
+  # ============================================================
+  mock:
+    provider: "mock"
+    model_name: "mock-model"
+    temperature: 0.0
+    max_tokens: 4096
+    enabled: true
+
+  # ============================================================
+  # OpenAI family
+  # ============================================================
+  gpt4o:
+    provider: "openai"
+    model_name: "gpt-4o-2024-08-06"
+    api_key_env: "OPENAI_API_KEY"  # read from environment variable
+    temperature: 0.0
+    max_tokens: 4096
+    enabled: true
+    pricing:
+      input_per_1m: 2.50
+      output_per_1m: 10.00
+
+  gpt4o_mini:
+    provider: "openai"
+    model_name: "gpt-4o-mini-2024-07-18"
+    api_key_env: "OPENAI_API_KEY"
+    temperature: 0.0
+    max_tokens: 4096
+    enabled: true
+    pricing:
+      input_per_1m: 0.15
+      output_per_1m: 0.60
+
+  gpt35_turbo:
+    provider: "openai"
+    model_name: "gpt-3.5-turbo-0125"
+    api_key_env: "OPENAI_API_KEY"
+    response_format: "json_object"
+    temperature: 0.0
+    max_tokens: 4096
+    enabled: true
+    # No pricing block: this is a point-in-time provider snapshot and pricing
+    # changes independently of it; pricing is not a reproducibility fact and
+    # is intentionally not recorded here. See README.md
+    # for the pinned model identifiers and provider notes.
+
+  # ============================================================
+  # Anthropic family
+  # ============================================================
+  claude35_sonnet:
+    provider: "anthropic"
+    model_name: "claude-3-5-sonnet-20241022"
+    api_key_env: "ANTHROPIC_API_KEY"
+    temperature: 0.0
+    max_tokens: 4096
+    enabled: true
+    pricing:
+      input_per_1m: 3.00
+      output_per_1m: 15.00
+
+  claude_haiku_4_5:
+    provider: "anthropic"
+    model_name: "claude-haiku-4-5-20251001"
+    api_key_env: "ANTHROPIC_API_KEY"
+    temperature: 0.0
+    max_tokens: 4096
+    enabled: true
+    # No pricing block: this is a point-in-time provider snapshot and pricing
+    # changes independently of it; pricing is not a reproducibility fact and
+    # is intentionally not recorded here. See README.md
+    # for the pinned model identifiers and provider notes.
+
+  claude3_opus:
+    provider: "anthropic"
+    model_name: "claude-3-opus-20240229"
+    api_key_env: "ANTHROPIC_API_KEY"
+    temperature: 0.0
+    max_tokens: 4096
+    enabled: false
+    pricing:
+      input_per_1m: 15.00
+      output_per_1m: 75.00
+
+# ============================================================
+# Module-level configuration (which module uses which model)
+# ============================================================
+module_configs:
+  module_g:  # Graph Generation
+    model: "gpt4o"  # can be changed to "claude35_sonnet" / "mock"
+    temperature: 0.0
+    max_retries: 2
+
+  module_sr_l:  # Self-Repair (LLM-based)
+    model: "gpt4o_mini"
+    temperature: 0.0
+    max_retries: 1

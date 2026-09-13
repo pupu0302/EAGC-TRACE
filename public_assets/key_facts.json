@@ -1,0 +1,31 @@
+{
+  "generated_at_utc": "2026-09-03T01:42:19.618472+00:00",
+  "benchmark": {
+    "n_instances": 789,
+    "n_documents": 32,
+    "n_sectors": 11,
+    "n_audited_core": 238,
+    "audited_core_relationship": "NESTED subset of the 789 public default evaluation set (not additive). Every Audited Core instance is one of the 789."
+  },
+  "headline_ECS_strict_pct": {
+    "B3_Flat-Evidence_GPT-4o": 88.34,
+    "G_GPT-4o": 91.89,
+    "G_GPT-4o-mini": 78.96,
+    "G_GPT-3.5_Turbo_0125": 70.98,
+    "G_Claude_Haiku_4.5": 94.3,
+    "TRACE_GPT-4o": 91.25,
+    "TRACE_GPT-4o-mini": 80.35,
+    "TRACE_GPT-3.5_Turbo_0125": 74.14,
+    "TRACE_Claude_Haiku_4.5": 95.06
+  },
+  "caveats": [
+    "No backbone's TRACE-vs-G comparison survives Holm correction under ALL THREE bootstrap methods simultaneously (instance_bootstrap, document_cluster_bootstrap, sector_stratified_bootstrap). GPT-3.5 Turbo 0125 is the one partial exception: its TRACE-vs-G comparison survives Holm correction under exactly ONE of the three methods (sector_stratified_bootstrap, p_holm=0.0336) but not the other two (p_holm=0.1176 instance, 0.1512 document-cluster). GPT-4o, GPT-4o-mini, and Haiku do not survive Holm correction under any of the three methods. Source: HOLM_CORRECTED_COMPARISONS.csv.",
+    "On GPT-4o, the point estimate favors G over TRACE, not the reverse: G=91.89% vs TRACE=91.25% ECS_strict (TRACE is 0.63 percentage points LOWER). This comparison is also not significant after Holm correction under any of the three bootstrap methods.",
+    "GPT-3.5 Turbo 0125's surface TRACE-over-G gain (74.14% vs 70.98%, +3.17pp) partly reflects TRACE's lower generation-failure rate on this backbone: TRACE failed to produce a scoreable prediction on 25 of 789 instances vs G's 39 of 789 -- a real difference in effective coverage, not purely a difference in per-instance evidence-closure quality. Both methods score 0 (fail) on their respective failed instances under the frozen scoring contract.",
+    "G vs. the matched B3 Flat-Evidence baseline (matched-evidence, flat presentation, full EAGC schema; distinct from the design-defined empty-evidence control) remains significantly better on GPT-4o: G=91.89% vs B3 Flat-Evidence=88.34% ECS_strict, Holm-corrected p=0.0007 under all three bootstrap methods. TRACE vs B3 Flat-Evidence is also significant under all three methods (Holm p=0.003 instance / 0.0048 document-cluster / 0.0007 sector-stratified) -- note these three p-values are NOT uniformly below 0.001, so 'p<0.001' should not be stated for the TRACE-vs-B3 Flat-Evidence comparison specifically. Source: results/bootstrap/g_vs_b3_flat_evidence_primary_comparison.csv and results/bootstrap/holm_corrected_comparisons.csv.",
+    "B3 Flat-Evidence (matched-evidence, flat-presentation, full EAGC schema comparator; see predictions/table1/row01_B3_Flat_Evidence_GPT_4o.json) is distinct from the separate design-defined empty-evidence control, which scores 0.00% ECS_strict by construction and functions only as a negative control, not a reported Table 1 row.",
+    "B3 Flat-Evidence is defined only for the GPT-4o backbone in the frozen Table 1 design; there is no B3 Flat-Evidence row for GPT-4o-mini, GPT-3.5, or Haiku."
+  ],
+  "offline_reproduction_status": "see reproduce/README.md",
+  "live_inference_reexecution_status": "see README.md"
+}

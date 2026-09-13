@@ -1,0 +1,4891 @@
+{
+  "generated_at_utc": "2026-09-01T13:54:34.553760+00:00",
+  "definition": "KEEP_SUPPORTED_CLEAN + KEEP_FINAL_REVIEW_CLEAN + REPAIR_GOLD + KEEP_NO_KNOWN_DEFECT",
+  "n_instances": 789,
+  "status_breakdown": {
+    "KEEP_NO_KNOWN_DEFECT": 551,
+    "REPAIR_GOLD": 126,
+    "KEEP_SUPPORTED_CLEAN": 67,
+    "KEEP_FINAL_REVIEW_CLEAN": 45
+  },
+  "coverage": {
+    "n_instances": 789,
+    "n_docs_covered": 32,
+    "docs_covered": [
+      "BAX_2020",
+      "BA_2024",
+      "BKR_2023",
+      "CBRE_2023",
+      "CF_2022",
+      "COF_2020",
+      "COP_2012",
+      "DECK_2021",
+      "DTE_2020",
+      "FE_2023",
+      "F_2024",
+      "GEV_2023",
+      "GOOGL_2024",
+      "HPQ_2020",
+      "IPG_2021",
+      "JCI_2020",
+      "JNJ_2023",
+      "JNPR_2023",
+      "KEYS_2022",
+      "KMI_2023",
+      "LLY_2013",
+      "MS_2023",
+      "NEM_2020",
+      "NI_2022",
+      "NKE_2004",
+      "PLD_2008",
+      "PM_2023",
+      "REG_2020",
+      "SPGI_2023",
+      "TSN_2019",
+      "VZ_2022",
+      "WMT_2008"
+    ],
+    "instances_per_doc": {
+      "BAX_2020": 25,
+      "BA_2024": 23,
+      "BKR_2023": 24,
+      "CBRE_2023": 23,
+      "CF_2022": 22,
+      "COF_2020": 28,
+      "COP_2012": 24,
+      "DECK_2021": 25,
+      "DTE_2020": 22,
+      "FE_2023": 22,
+      "F_2024": 25,
+      "GEV_2023": 24,
+      "GOOGL_2024": 29,
+      "HPQ_2020": 25,
+      "IPG_2021": 27,
+      "JCI_2020": 27,
+      "JNJ_2023": 24,
+      "JNPR_2023": 26,
+      "KEYS_2022": 26,
+      "KMI_2023": 21,
+      "LLY_2013": 25,
+      "MS_2023": 27,
+      "NEM_2020": 24,
+      "NI_2022": 14,
+      "NKE_2004": 27,
+      "PLD_2008": 25,
+      "PM_2023": 21,
+      "REG_2020": 26,
+      "SPGI_2023": 27,
+      "TSN_2019": 26,
+      "VZ_2022": 30,
+      "WMT_2008": 25
+    },
+    "sector_instance_counts": {
+      "Communication Services": 86,
+      "Consumer Discretionary": 77,
+      "Consumer Staples": 72,
+      "Energy": 69,
+      "Financials": 82,
+      "Health Care": 74,
+      "Industrials": 74,
+      "Information Technology": 77,
+      "Materials": 46,
+      "Real Estate": 74,
+      "Utilities": 58
+    },
+    "doc_to_sector": {
+      "BAX_2020": "Health Care",
+      "BA_2024": "Industrials",
+      "BKR_2023": "Energy",
+      "CBRE_2023": "Real Estate",
+      "CF_2022": "Materials",
+      "COF_2020": "Financials",
+      "COP_2012": "Energy",
+      "DECK_2021": "Consumer Discretionary",
+      "DTE_2020": "Utilities",
+      "FE_2023": "Utilities",
+      "F_2024": "Consumer Discretionary",
+      "GEV_2023": "Industrials",
+      "GOOGL_2024": "Communication Services",
+      "HPQ_2020": "Information Technology",
+      "IPG_2021": "Communication Services",
+      "JCI_2020": "Industrials",
+      "JNJ_2023": "Health Care",
+      "JNPR_2023": "Information Technology",
+      "KEYS_2022": "Information Technology",
+      "KMI_2023": "Energy",
+      "LLY_2013": "Health Care",
+      "MS_2023": "Financials",
+      "NEM_2020": "Materials",
+      "NI_2022": "Utilities",
+      "NKE_2004": "Consumer Discretionary",
+      "PLD_2008": "Real Estate",
+      "PM_2023": "Consumer Staples",
+      "REG_2020": "Real Estate",
+      "SPGI_2023": "Financials",
+      "TSN_2019": "Consumer Staples",
+      "VZ_2022": "Communication Services",
+      "WMT_2008": "Consumer Staples"
+    },
+    "per_doc_instance_count_distribution": {
+      "14": 1,
+      "21": 2,
+      "22": 3,
+      "23": 2,
+      "24": 5,
+      "25": 7,
+      "26": 4,
+      "27": 5,
+      "28": 1,
+      "29": 1,
+      "30": 1
+    },
+    "per_doc_instance_count_range": [
+      14,
+      30
+    ],
+    "per_sector_instance_count_range": [
+      46,
+      86
+    ],
+    "docs_not_covered": [
+      "AVY_2019"
+    ],
+    "docs_not_covered_reason": "EXCLUDE_SOURCE_DOCUMENT (all instances of this doc excluded)"
+  },
+  "items": [
+    {
+      "instance_id": "BAX_2020:cc:000059",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000075",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000081",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000096",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000098",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000106",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000119",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000121",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000127",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000130",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000131",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000132",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000138",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000148",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000187",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000188",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000193",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000198",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000252",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000253",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000263",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000275",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000279",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000285",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000295",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BA_2024:cc:000000",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000002",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000024",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000040",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000049",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000074",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000080",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000112",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000113",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000135",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000148",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000150",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000152",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000155",
+      "doc_id": "BA_2024",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000156",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000158",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000161",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000165",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000203",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000239",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000246",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000252",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000269",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000025",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000054",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000075",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000081",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000083",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000087",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000098",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000117",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000122",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000136",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000163",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000167",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000177",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000195",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000207",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000221",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000233",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000235",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000247",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000257",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000274",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000278",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000280",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000281",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000017",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000020",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000021",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000038",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000043",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000052",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000062",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000071",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000098",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000102",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000105",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000114",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000115",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000132",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000136",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000164",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000170",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000206",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000225",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000229",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000230",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000278",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000282",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CF_2022:cc:000016",
+      "doc_id": "CF_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000042",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000070",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000091",
+      "doc_id": "CF_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000098",
+      "doc_id": "CF_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000100",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000119",
+      "doc_id": "CF_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000123",
+      "doc_id": "CF_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000137",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000138",
+      "doc_id": "CF_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000149",
+      "doc_id": "CF_2022",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000165",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000171",
+      "doc_id": "CF_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000178",
+      "doc_id": "CF_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000197",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000240",
+      "doc_id": "CF_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000250",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000267",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000275",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000289",
+      "doc_id": "CF_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000297",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000298",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000003",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000014",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000029",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000053",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000054",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000068",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000071",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000075",
+      "doc_id": "COF_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000076",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000102",
+      "doc_id": "COF_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000113",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000138",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000142",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000143",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000177",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000181",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000184",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000189",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000228",
+      "doc_id": "COF_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000243",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000252",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000254",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000258",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000261",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000266",
+      "doc_id": "COF_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000272",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000285",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000296",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COP_2012:cc:000000",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000026",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000028",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000066",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000071",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000091",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000096",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000111",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000113",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000125",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000152",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000161",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000195",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000197",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000208",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000218",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000234",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000235",
+      "doc_id": "COP_2012",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000236",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000248",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000249",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000258",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000281",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000298",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000006",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000018",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000021",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000023",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000052",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000079",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000091",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000094",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000112",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000114",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000125",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000133",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000138",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000155",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000161",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000195",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000198",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000204",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000207",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000237",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000242",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000259",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000263",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000270",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000281",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000001",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000005",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000006",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000007",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000010",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000011",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000016",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000017",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000021",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000022",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000023",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000046",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000052",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000057",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000063",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000071",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000072",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000074",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000076",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000077",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000079",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000085",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000009",
+      "doc_id": "FE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000016",
+      "doc_id": "FE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000026",
+      "doc_id": "FE_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000046",
+      "doc_id": "FE_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000049",
+      "doc_id": "FE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000060",
+      "doc_id": "FE_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000063",
+      "doc_id": "FE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000074",
+      "doc_id": "FE_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000087",
+      "doc_id": "FE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000088",
+      "doc_id": "FE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000093",
+      "doc_id": "FE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000100",
+      "doc_id": "FE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000111",
+      "doc_id": "FE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000130",
+      "doc_id": "FE_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000157",
+      "doc_id": "FE_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000167",
+      "doc_id": "FE_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000179",
+      "doc_id": "FE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000193",
+      "doc_id": "FE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000195",
+      "doc_id": "FE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000197",
+      "doc_id": "FE_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000202",
+      "doc_id": "FE_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000218",
+      "doc_id": "FE_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "F_2024:cc:000032",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000049",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000069",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000072",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000087",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000094",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000103",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000109",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000134",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000142",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000145",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000159",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000164",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000169",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000179",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000180",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000186",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000189",
+      "doc_id": "F_2024",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000222",
+      "doc_id": "F_2024",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000240",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000244",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000269",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000279",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000280",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000298",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000002",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000003",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000014",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000045",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000059",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000065",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000079",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000081",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000135",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000138",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000154",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000178",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000190",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000195",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000201",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000213",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000229",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000232",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000235",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000254",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000256",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000262",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000283",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000289",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000004",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000018",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000023",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000024",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000027",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000031",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000046",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000048",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000049",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000056",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000076",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000080",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000100",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000113",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000115",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000148",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000161",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000162",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000171",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000176",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000181",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000195",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000196",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000215",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000219",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000225",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000258",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000267",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000297",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000047",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000054",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000058",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000066",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000074",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000103",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000108",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000123",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000133",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000135",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000153",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000171",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000186",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000192",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000201",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000205",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000233",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000236",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000242",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000247",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000267",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000268",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000270",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000289",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000295",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000015",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000020",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000026",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000029",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000055",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000062",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000069",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000096",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000099",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000110",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000111",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000119",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000123",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000130",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000147",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000156",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000160",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000164",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000188",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000206",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000226",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000248",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000249",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000254",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000280",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000292",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000294",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000018",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000070",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000071",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000100",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000101",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000110",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000112",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000117",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000132",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000138",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000143",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000171",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000183",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000190",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000193",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000208",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000211",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000215",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000220",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000229",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000236",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000237",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000238",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000269",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000282",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000292",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000294",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000004",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000008",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000009",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000012",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000015",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000016",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000018",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000020",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000022",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000024",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000027",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000028",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000030",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000031",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000034",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000042",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000043",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000044",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000045",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000050",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000051",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000052",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000053",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000054",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000022",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000035",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000038",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000081",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000086",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000089",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000092",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000104",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000112",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000116",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000121",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000145",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000152",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000178",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000187",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000195",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000228",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000244",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000257",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000265",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000268",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000269",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000270",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000286",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000290",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000294",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000007",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000013",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000029",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000033",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000034",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000035",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000040",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000043",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000045",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000049",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000064",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000067",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000075",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000078",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000087",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000092",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000094",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000106",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000111",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000113",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000115",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000116",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000117",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000118",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000119",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000120",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000003",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000028",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000063",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000102",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000113",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000117",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000134",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000147",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000156",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000181",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000194",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000197",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000205",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000210",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000222",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000240",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000246",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000266",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000268",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000271",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000293",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000004",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000014",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000024",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000037",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000069",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000079",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000084",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000093",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000094",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000136",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000161",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000175",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000182",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000187",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000227",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000234",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000235",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000246",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000251",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000256",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000260",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000269",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000278",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000293",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000299",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "MS_2023:cc:000009",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000010",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000033",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000065",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000103",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000109",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000142",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000150",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000157",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000162",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000172",
+      "doc_id": "MS_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000185",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000191",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000201",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000205",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000214",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000236",
+      "doc_id": "MS_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000238",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000252",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000257",
+      "doc_id": "MS_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000261",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000262",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000271",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000274",
+      "doc_id": "MS_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000276",
+      "doc_id": "MS_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000281",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000294",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000047",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000075",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000079",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000081",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000087",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000094",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000112",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000116",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000133",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000156",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000161",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000175",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000183",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000186",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000192",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000199",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000201",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000207",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000235",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000241",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000259",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000262",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000278",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000279",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NI_2022:cc:000013",
+      "doc_id": "NI_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "NI_2022:cc:000043",
+      "doc_id": "NI_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "NI_2022:cc:000044",
+      "doc_id": "NI_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "NI_2022:cc:000098",
+      "doc_id": "NI_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "NI_2022:cc:000119",
+      "doc_id": "NI_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "NI_2022:cc:000123",
+      "doc_id": "NI_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "NI_2022:cc:000124",
+      "doc_id": "NI_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "NI_2022:cc:000162",
+      "doc_id": "NI_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "NI_2022:cc:000188",
+      "doc_id": "NI_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "NI_2022:cc:000189",
+      "doc_id": "NI_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "NI_2022:cc:000222",
+      "doc_id": "NI_2022",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "NI_2022:cc:000237",
+      "doc_id": "NI_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "NI_2022:cc:000238",
+      "doc_id": "NI_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "NI_2022:cc:000275",
+      "doc_id": "NI_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000031",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000057",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000063",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000064",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000070",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000075",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000097",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000100",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000104",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000109",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000112",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000131",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000148",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000164",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000166",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000191",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000208",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000209",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000219",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000221",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000248",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000258",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000259",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000272",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000276",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000282",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000296",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000012",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000013",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000020",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000021",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000025",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000033",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000042",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000056",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000057",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000059",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000067",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000073",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000093",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000094",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000096",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000101",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000104",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000112",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000134",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000165",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000176",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000199",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000204",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000206",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000209",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PM_2023:cc:000001",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000066",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000071",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000094",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000106",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000128",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000165",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000186",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000202",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000203",
+      "doc_id": "PM_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000239",
+      "doc_id": "PM_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000254",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000256",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000259",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000260",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000261",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000266",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000270",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000277",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000291",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000294",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "REG_2020:cc:000014",
+      "doc_id": "REG_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000019",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000032",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000037",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000055",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000061",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000064",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000067",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000069",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000077",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000084",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000092",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000094",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000103",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000107",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000111",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000112",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000118",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000123",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000129",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000130",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000135",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000137",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000145",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000151",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000156",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000002",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000005",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000007",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000016",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000039",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000052",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000070",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000072",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000076",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000084",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000092",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000101",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000152",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000167",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000168",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000173",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000175",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000181",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000196",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000197",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000214",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000215",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000236",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000241",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000244",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000255",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000261",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000025",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000032",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000048",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000061",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000086",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000103",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000107",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000117",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000119",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000128",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000144",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000159",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000166",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000167",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000179",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000180",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000188",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000201",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000208",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000209",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000241",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000257",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000272",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000283",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000291",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000295",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000000",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000011",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000015",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000018",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000022",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000028",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000035",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000061",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000067",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000068",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000081",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000085",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000089",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000090",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000114",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000122",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000128",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000131",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000136",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000137",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000146",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000167",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000169",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000171",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000190",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000192",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000195",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000240",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000276",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000286",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000004",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000015",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000018",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000026",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000047",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000048",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000050",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000074",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000086",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000103",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000106",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000157",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000161",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000162",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000169",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000173",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000179",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000182",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000199",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000209",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000217",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000234",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000277",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000281",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_NO_KNOWN_DEFECT",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000288",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Staples"
+    }
+  ]
+}

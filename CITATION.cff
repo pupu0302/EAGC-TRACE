@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this code or the EAGC-TRACE benchmark, please cite the paper below."
+title: "Auditable Machine Reading for Grounding Corporate Sustainability Claims with Report Evidence"
+type: software
+authors:
+  - family-names: Liu
+    given-names: Mengpu
+    email: mengpu001@e.ntu.edu.sg
+    affiliation: "College of Computing and Data Science, Nanyang Technological University"
+  - family-names: Duan
+    given-names: Yiyang
+    affiliation: "College of Computing and Data Science, Nanyang Technological University"
+  - family-names: Yang
+    given-names: Qi
+    affiliation: "College of Computing and Data Science, Nanyang Technological University"
+  - family-names: Wu
+    given-names: Yi
+    affiliation: "Alibaba-NTU Global e-Sustainability CorpLab (ANGEL)"
+  - family-names: Zhao
+    given-names: Yilei
+    affiliation: "College of Computing and Data Science, Nanyang Technological University"
+  - family-names: Xiao
+    given-names: Lei
+    affiliation: "Alibaba Group"
+  - family-names: Liu
+    given-names: Wei
+    affiliation: "Alibaba-NTU Global e-Sustainability CorpLab (ANGEL); Alibaba Group"
+  - family-names: Lim
+    given-names: "Wei Yang Bryan"
+    affiliation: "College of Computing and Data Science, Nanyang Technological University"
+preferred-citation:
+  type: unpublished
+  title: "Auditable Machine Reading for Grounding Corporate Sustainability Claims with Report Evidence"
+  authors:
+    - family-names: Liu
+      given-names: Mengpu
+    - family-names: Duan
+      given-names: Yiyang
+    - family-names: Yang
+      given-names: Qi
+    - family-names: Wu
+      given-names: Yi
+    - family-names: Zhao
+      given-names: Yilei
+    - family-names: Xiao
+      given-names: Lei
+    - family-names: Liu
+      given-names: Wei
+    - family-names: Lim
+      given-names: "Wei Yang Bryan"
+  year: 2026
+  notes: "Unpublished manuscript."

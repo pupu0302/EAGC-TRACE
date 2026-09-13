@@ -1,0 +1,12 @@
+# Pinned to the versions used to produce the results in the paper.
+# Python 3.12.8
+
+anthropic==0.84.0
+openai==2.23.0
+numpy==2.0.1
+pandas==2.2.3
+PyYAML==6.0.3
+tqdm==4.66.4
+beautifulsoup4==4.13.4
+jsonschema==4.26.0
+pytest==9.0.2

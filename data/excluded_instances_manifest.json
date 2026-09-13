@@ -1,0 +1,1229 @@
+{
+  "generated_at_utc": "2026-09-03T01:06:06.244791+00:00",
+  "definition": "Instances/documents excluded from the public 789-instance default evaluation set during pre-release QA governance. Listed for transparency; NOT part of the default loader's 789 or the nested 238 Audited Core subset.",
+  "n_items": 201,
+  "public_reason_category_counts": {
+    "document_level_exclusion": 30,
+    "gold_annotation_quality_issue": 101,
+    "schema_validation_failure": 19,
+    "qa_review_other": 16,
+    "evidence_pool_integrity_issue": 29,
+    "relation_annotation_ambiguity": 6
+  },
+  "category_definitions": {
+    "document_level_exclusion": "Entire source document excluded due to a document-level defect (e.g. source-file integrity issue).",
+    "evidence_pool_integrity_issue": "Annotated evidence pointed outside the model-visible candidate evidence pool.",
+    "schema_validation_failure": "Failed strict schema/structural validation under the frozen release validator.",
+    "relation_annotation_ambiguity": "Relation-type annotation was not determinable or conflicted under the frozen relation schema.",
+    "gold_annotation_quality_issue": "Gold annotation itself was judged defective (claim/input defect, not-a-claim, repair attempted but not feasible, or author-adjudicated exclusion) during quality review.",
+    "qa_review_other": "Quality-review status not yet finally resolved at release-candidate freeze time."
+  },
+  "items": [
+    {
+      "instance_id": "AVY_2019:cc:000001",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000005",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000019",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000024",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000032",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000037",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000038",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000086",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000089",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000103",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000106",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000120",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000133",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000144",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000158",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000173",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000192",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000205",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000206",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000220",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000224",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000225",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000239",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000245",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000246",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000250",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000251",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000291",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000295",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "AVY_2019:cc:000297",
+      "doc_id": "AVY_2019",
+      "public_reason_category": "document_level_exclusion",
+      "is_document_level_exclusion": true
+    },
+    {
+      "instance_id": "BAX_2020:cc:000003",
+      "doc_id": "BAX_2020",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "BAX_2020:cc:000115",
+      "doc_id": "BAX_2020",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "BAX_2020:cc:000215",
+      "doc_id": "BAX_2020",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "BAX_2020:cc:000223",
+      "doc_id": "BAX_2020",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "BA_2024:cc:000009",
+      "doc_id": "BA_2024",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "BA_2024:cc:000036",
+      "doc_id": "BA_2024",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "BA_2024:cc:000163",
+      "doc_id": "BA_2024",
+      "public_reason_category": "schema_validation_failure",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "BA_2024:cc:000206",
+      "doc_id": "BA_2024",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "BA_2024:cc:000208",
+      "doc_id": "BA_2024",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "BA_2024:cc:000273",
+      "doc_id": "BA_2024",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "BKR_2023:cc:000004",
+      "doc_id": "BKR_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "BKR_2023:cc:000007",
+      "doc_id": "BKR_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "BKR_2023:cc:000086",
+      "doc_id": "BKR_2023",
+      "public_reason_category": "qa_review_other",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "BKR_2023:cc:000173",
+      "doc_id": "BKR_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "BKR_2023:cc:000187",
+      "doc_id": "BKR_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "BKR_2023:cc:000204",
+      "doc_id": "BKR_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000013",
+      "doc_id": "CBRE_2023",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000078",
+      "doc_id": "CBRE_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000103",
+      "doc_id": "CBRE_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000181",
+      "doc_id": "CBRE_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000203",
+      "doc_id": "CBRE_2023",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000243",
+      "doc_id": "CBRE_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000265",
+      "doc_id": "CBRE_2023",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "CF_2022:cc:000000",
+      "doc_id": "CF_2022",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "CF_2022:cc:000031",
+      "doc_id": "CF_2022",
+      "public_reason_category": "relation_annotation_ambiguity",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "CF_2022:cc:000068",
+      "doc_id": "CF_2022",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "CF_2022:cc:000084",
+      "doc_id": "CF_2022",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "CF_2022:cc:000122",
+      "doc_id": "CF_2022",
+      "public_reason_category": "qa_review_other",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "CF_2022:cc:000202",
+      "doc_id": "CF_2022",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "CF_2022:cc:000207",
+      "doc_id": "CF_2022",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "CF_2022:cc:000220",
+      "doc_id": "CF_2022",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "COF_2020:cc:000160",
+      "doc_id": "COF_2020",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "COF_2020:cc:000218",
+      "doc_id": "COF_2020",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "COP_2012:cc:000003",
+      "doc_id": "COP_2012",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "COP_2012:cc:000004",
+      "doc_id": "COP_2012",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "COP_2012:cc:000019",
+      "doc_id": "COP_2012",
+      "public_reason_category": "qa_review_other",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "COP_2012:cc:000047",
+      "doc_id": "COP_2012",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "COP_2012:cc:000179",
+      "doc_id": "COP_2012",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "COP_2012:cc:000256",
+      "doc_id": "COP_2012",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "DECK_2021:cc:000011",
+      "doc_id": "DECK_2021",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "DECK_2021:cc:000071",
+      "doc_id": "DECK_2021",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "DECK_2021:cc:000093",
+      "doc_id": "DECK_2021",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "DECK_2021:cc:000148",
+      "doc_id": "DECK_2021",
+      "public_reason_category": "schema_validation_failure",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "DECK_2021:cc:000206",
+      "doc_id": "DECK_2021",
+      "public_reason_category": "qa_review_other",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "DTE_2020:cc:000027",
+      "doc_id": "DTE_2020",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "DTE_2020:cc:000037",
+      "doc_id": "DTE_2020",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "DTE_2020:cc:000039",
+      "doc_id": "DTE_2020",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "DTE_2020:cc:000050",
+      "doc_id": "DTE_2020",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "DTE_2020:cc:000051",
+      "doc_id": "DTE_2020",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "DTE_2020:cc:000066",
+      "doc_id": "DTE_2020",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "DTE_2020:cc:000075",
+      "doc_id": "DTE_2020",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "DTE_2020:cc:000081",
+      "doc_id": "DTE_2020",
+      "public_reason_category": "schema_validation_failure",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "FE_2023:cc:000042",
+      "doc_id": "FE_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "FE_2023:cc:000151",
+      "doc_id": "FE_2023",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "FE_2023:cc:000158",
+      "doc_id": "FE_2023",
+      "public_reason_category": "relation_annotation_ambiguity",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "FE_2023:cc:000161",
+      "doc_id": "FE_2023",
+      "public_reason_category": "schema_validation_failure",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "FE_2023:cc:000168",
+      "doc_id": "FE_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "FE_2023:cc:000175",
+      "doc_id": "FE_2023",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "FE_2023:cc:000191",
+      "doc_id": "FE_2023",
+      "public_reason_category": "relation_annotation_ambiguity",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "FE_2023:cc:000228",
+      "doc_id": "FE_2023",
+      "public_reason_category": "qa_review_other",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "F_2024:cc:000030",
+      "doc_id": "F_2024",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "F_2024:cc:000041",
+      "doc_id": "F_2024",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "F_2024:cc:000091",
+      "doc_id": "F_2024",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "F_2024:cc:000132",
+      "doc_id": "F_2024",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "F_2024:cc:000141",
+      "doc_id": "F_2024",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "GEV_2023:cc:000062",
+      "doc_id": "GEV_2023",
+      "public_reason_category": "qa_review_other",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "GEV_2023:cc:000064",
+      "doc_id": "GEV_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "GEV_2023:cc:000084",
+      "doc_id": "GEV_2023",
+      "public_reason_category": "qa_review_other",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "GEV_2023:cc:000110",
+      "doc_id": "GEV_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "GEV_2023:cc:000128",
+      "doc_id": "GEV_2023",
+      "public_reason_category": "schema_validation_failure",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "GEV_2023:cc:000214",
+      "doc_id": "GEV_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000217",
+      "doc_id": "GOOGL_2024",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000039",
+      "doc_id": "HPQ_2020",
+      "public_reason_category": "schema_validation_failure",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000041",
+      "doc_id": "HPQ_2020",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000174",
+      "doc_id": "HPQ_2020",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000175",
+      "doc_id": "HPQ_2020",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "IPG_2021:cc:000078",
+      "doc_id": "IPG_2021",
+      "public_reason_category": "relation_annotation_ambiguity",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "IPG_2021:cc:000149",
+      "doc_id": "IPG_2021",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "IPG_2021:cc:000159",
+      "doc_id": "IPG_2021",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "JCI_2020:cc:000032",
+      "doc_id": "JCI_2020",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "JCI_2020:cc:000119",
+      "doc_id": "JCI_2020",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "JCI_2020:cc:000141",
+      "doc_id": "JCI_2020",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000007",
+      "doc_id": "JNJ_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000010",
+      "doc_id": "JNJ_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000033",
+      "doc_id": "JNJ_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000046",
+      "doc_id": "JNJ_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000049",
+      "doc_id": "JNJ_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000007",
+      "doc_id": "JNPR_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000025",
+      "doc_id": "JNPR_2023",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000216",
+      "doc_id": "JNPR_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000256",
+      "doc_id": "JNPR_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000002",
+      "doc_id": "KEYS_2022",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000025",
+      "doc_id": "KEYS_2022",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000030",
+      "doc_id": "KEYS_2022",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000051",
+      "doc_id": "KEYS_2022",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "KMI_2023:cc:000002",
+      "doc_id": "KMI_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "KMI_2023:cc:000031",
+      "doc_id": "KMI_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "KMI_2023:cc:000045",
+      "doc_id": "KMI_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "KMI_2023:cc:000059",
+      "doc_id": "KMI_2023",
+      "public_reason_category": "schema_validation_failure",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "KMI_2023:cc:000080",
+      "doc_id": "KMI_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "KMI_2023:cc:000136",
+      "doc_id": "KMI_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "KMI_2023:cc:000160",
+      "doc_id": "KMI_2023",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "KMI_2023:cc:000230",
+      "doc_id": "KMI_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "LLY_2013:cc:000009",
+      "doc_id": "LLY_2013",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "LLY_2013:cc:000015",
+      "doc_id": "LLY_2013",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "LLY_2013:cc:000140",
+      "doc_id": "LLY_2013",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "LLY_2013:cc:000151",
+      "doc_id": "LLY_2013",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "LLY_2013:cc:000169",
+      "doc_id": "LLY_2013",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "MS_2023:cc:000091",
+      "doc_id": "MS_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "MS_2023:cc:000092",
+      "doc_id": "MS_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NEM_2020:cc:000032",
+      "doc_id": "NEM_2020",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NEM_2020:cc:000120",
+      "doc_id": "NEM_2020",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NEM_2020:cc:000177",
+      "doc_id": "NEM_2020",
+      "public_reason_category": "schema_validation_failure",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NEM_2020:cc:000219",
+      "doc_id": "NEM_2020",
+      "public_reason_category": "qa_review_other",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NEM_2020:cc:000225",
+      "doc_id": "NEM_2020",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NEM_2020:cc:000288",
+      "doc_id": "NEM_2020",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NI_2022:cc:000001",
+      "doc_id": "NI_2022",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NI_2022:cc:000060",
+      "doc_id": "NI_2022",
+      "public_reason_category": "schema_validation_failure",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NI_2022:cc:000073",
+      "doc_id": "NI_2022",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NI_2022:cc:000086",
+      "doc_id": "NI_2022",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NI_2022:cc:000090",
+      "doc_id": "NI_2022",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NI_2022:cc:000132",
+      "doc_id": "NI_2022",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NI_2022:cc:000166",
+      "doc_id": "NI_2022",
+      "public_reason_category": "qa_review_other",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NI_2022:cc:000202",
+      "doc_id": "NI_2022",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NI_2022:cc:000208",
+      "doc_id": "NI_2022",
+      "public_reason_category": "qa_review_other",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NI_2022:cc:000209",
+      "doc_id": "NI_2022",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NI_2022:cc:000212",
+      "doc_id": "NI_2022",
+      "public_reason_category": "qa_review_other",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NI_2022:cc:000217",
+      "doc_id": "NI_2022",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NI_2022:cc:000235",
+      "doc_id": "NI_2022",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NI_2022:cc:000242",
+      "doc_id": "NI_2022",
+      "public_reason_category": "qa_review_other",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NI_2022:cc:000276",
+      "doc_id": "NI_2022",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NI_2022:cc:000299",
+      "doc_id": "NI_2022",
+      "public_reason_category": "relation_annotation_ambiguity",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NKE_2004:cc:000032",
+      "doc_id": "NKE_2004",
+      "public_reason_category": "relation_annotation_ambiguity",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NKE_2004:cc:000037",
+      "doc_id": "NKE_2004",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "NKE_2004:cc:000128",
+      "doc_id": "NKE_2004",
+      "public_reason_category": "schema_validation_failure",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "PLD_2008:cc:000004",
+      "doc_id": "PLD_2008",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "PLD_2008:cc:000008",
+      "doc_id": "PLD_2008",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "PLD_2008:cc:000063",
+      "doc_id": "PLD_2008",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "PLD_2008:cc:000161",
+      "doc_id": "PLD_2008",
+      "public_reason_category": "schema_validation_failure",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "PLD_2008:cc:000197",
+      "doc_id": "PLD_2008",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "PM_2023:cc:000020",
+      "doc_id": "PM_2023",
+      "public_reason_category": "schema_validation_failure",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "PM_2023:cc:000036",
+      "doc_id": "PM_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "PM_2023:cc:000052",
+      "doc_id": "PM_2023",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "PM_2023:cc:000076",
+      "doc_id": "PM_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "PM_2023:cc:000151",
+      "doc_id": "PM_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "PM_2023:cc:000226",
+      "doc_id": "PM_2023",
+      "public_reason_category": "qa_review_other",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "PM_2023:cc:000275",
+      "doc_id": "PM_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "PM_2023:cc:000278",
+      "doc_id": "PM_2023",
+      "public_reason_category": "qa_review_other",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "REG_2020:cc:000001",
+      "doc_id": "REG_2020",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "REG_2020:cc:000039",
+      "doc_id": "REG_2020",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "REG_2020:cc:000072",
+      "doc_id": "REG_2020",
+      "public_reason_category": "qa_review_other",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "REG_2020:cc:000106",
+      "doc_id": "REG_2020",
+      "public_reason_category": "qa_review_other",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000162",
+      "doc_id": "SPGI_2023",
+      "public_reason_category": "schema_validation_failure",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000164",
+      "doc_id": "SPGI_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000174",
+      "doc_id": "SPGI_2023",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "TSN_2019:cc:000015",
+      "doc_id": "TSN_2019",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "TSN_2019:cc:000026",
+      "doc_id": "TSN_2019",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "TSN_2019:cc:000029",
+      "doc_id": "TSN_2019",
+      "public_reason_category": "schema_validation_failure",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "TSN_2019:cc:000236",
+      "doc_id": "TSN_2019",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "WMT_2008:cc:000019",
+      "doc_id": "WMT_2008",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "WMT_2008:cc:000190",
+      "doc_id": "WMT_2008",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "WMT_2008:cc:000235",
+      "doc_id": "WMT_2008",
+      "public_reason_category": "gold_annotation_quality_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "WMT_2008:cc:000242",
+      "doc_id": "WMT_2008",
+      "public_reason_category": "schema_validation_failure",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "WMT_2008:cc:000252",
+      "doc_id": "WMT_2008",
+      "public_reason_category": "schema_validation_failure",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "BAX_2020:cc:000145",
+      "doc_id": "BAX_2020",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "BA_2024:cc:000261",
+      "doc_id": "BA_2024",
+      "public_reason_category": "schema_validation_failure",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000129",
+      "doc_id": "HPQ_2020",
+      "public_reason_category": "schema_validation_failure",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000011",
+      "doc_id": "JNJ_2023",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "KMI_2023:cc:000049",
+      "doc_id": "KMI_2023",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "MS_2023:cc:000202",
+      "doc_id": "MS_2023",
+      "public_reason_category": "evidence_pool_integrity_issue",
+      "is_document_level_exclusion": false
+    },
+    {
+      "instance_id": "PM_2023:cc:000170",
+      "doc_id": "PM_2023",
+      "public_reason_category": "schema_validation_failure",
+      "is_document_level_exclusion": false
+    }
+  ]
+}

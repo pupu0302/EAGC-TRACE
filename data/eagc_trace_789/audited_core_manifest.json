@@ -1,0 +1,1583 @@
+{
+  "generated_at_utc": "2026-09-01T13:54:34.553760+00:00",
+  "definition": "KEEP_SUPPORTED_CLEAN + KEEP_FINAL_REVIEW_CLEAN + REPAIR_GOLD",
+  "n_instances": 238,
+  "status_breakdown": {
+    "REPAIR_GOLD": 126,
+    "KEEP_SUPPORTED_CLEAN": 67,
+    "KEEP_FINAL_REVIEW_CLEAN": 45
+  },
+  "coverage": {
+    "n_instances": 238,
+    "n_docs_covered": 32,
+    "docs_covered": [
+      "BAX_2020",
+      "BA_2024",
+      "BKR_2023",
+      "CBRE_2023",
+      "CF_2022",
+      "COF_2020",
+      "COP_2012",
+      "DECK_2021",
+      "DTE_2020",
+      "FE_2023",
+      "F_2024",
+      "GEV_2023",
+      "GOOGL_2024",
+      "HPQ_2020",
+      "IPG_2021",
+      "JCI_2020",
+      "JNJ_2023",
+      "JNPR_2023",
+      "KEYS_2022",
+      "KMI_2023",
+      "LLY_2013",
+      "MS_2023",
+      "NEM_2020",
+      "NI_2022",
+      "NKE_2004",
+      "PLD_2008",
+      "PM_2023",
+      "REG_2020",
+      "SPGI_2023",
+      "TSN_2019",
+      "VZ_2022",
+      "WMT_2008"
+    ],
+    "instances_per_doc": {
+      "BAX_2020": 5,
+      "BA_2024": 4,
+      "BKR_2023": 10,
+      "CBRE_2023": 3,
+      "CF_2022": 12,
+      "COF_2020": 9,
+      "COP_2012": 4,
+      "DECK_2021": 10,
+      "DTE_2020": 6,
+      "FE_2023": 9,
+      "F_2024": 5,
+      "GEV_2023": 6,
+      "GOOGL_2024": 9,
+      "HPQ_2020": 8,
+      "IPG_2021": 10,
+      "JCI_2020": 10,
+      "JNJ_2023": 7,
+      "JNPR_2023": 7,
+      "KEYS_2022": 12,
+      "KMI_2023": 8,
+      "LLY_2013": 5,
+      "MS_2023": 10,
+      "NEM_2020": 7,
+      "NI_2022": 3,
+      "NKE_2004": 4,
+      "PLD_2008": 8,
+      "PM_2023": 4,
+      "REG_2020": 5,
+      "SPGI_2023": 21,
+      "TSN_2019": 10,
+      "VZ_2022": 4,
+      "WMT_2008": 3
+    },
+    "sector_instance_counts": {
+      "Communication Services": 23,
+      "Consumer Discretionary": 19,
+      "Consumer Staples": 17,
+      "Energy": 22,
+      "Financials": 40,
+      "Health Care": 17,
+      "Industrials": 20,
+      "Information Technology": 27,
+      "Materials": 19,
+      "Real Estate": 16,
+      "Utilities": 18
+    },
+    "doc_to_sector": {
+      "BAX_2020": "Health Care",
+      "BA_2024": "Industrials",
+      "BKR_2023": "Energy",
+      "CBRE_2023": "Real Estate",
+      "CF_2022": "Materials",
+      "COF_2020": "Financials",
+      "COP_2012": "Energy",
+      "DECK_2021": "Consumer Discretionary",
+      "DTE_2020": "Utilities",
+      "FE_2023": "Utilities",
+      "F_2024": "Consumer Discretionary",
+      "GEV_2023": "Industrials",
+      "GOOGL_2024": "Communication Services",
+      "HPQ_2020": "Information Technology",
+      "IPG_2021": "Communication Services",
+      "JCI_2020": "Industrials",
+      "JNJ_2023": "Health Care",
+      "JNPR_2023": "Information Technology",
+      "KEYS_2022": "Information Technology",
+      "KMI_2023": "Energy",
+      "LLY_2013": "Health Care",
+      "MS_2023": "Financials",
+      "NEM_2020": "Materials",
+      "NI_2022": "Utilities",
+      "NKE_2004": "Consumer Discretionary",
+      "PLD_2008": "Real Estate",
+      "PM_2023": "Consumer Staples",
+      "REG_2020": "Real Estate",
+      "SPGI_2023": "Financials",
+      "TSN_2019": "Consumer Staples",
+      "VZ_2022": "Communication Services",
+      "WMT_2008": "Consumer Staples"
+    },
+    "per_doc_instance_count_distribution": {
+      "3": 3,
+      "4": 5,
+      "5": 4,
+      "6": 2,
+      "7": 3,
+      "8": 3,
+      "9": 3,
+      "10": 6,
+      "12": 2,
+      "21": 1
+    },
+    "per_doc_instance_count_range": [
+      3,
+      21
+    ],
+    "per_sector_instance_count_range": [
+      16,
+      40
+    ],
+    "docs_not_covered": [
+      "AVY_2019"
+    ],
+    "docs_not_covered_reason": "EXCLUDE_SOURCE_DOCUMENT (all instances of this doc excluded)"
+  },
+  "items": [
+    {
+      "instance_id": "BAX_2020:cc:000253",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000275",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000279",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000285",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BAX_2020:cc:000295",
+      "doc_id": "BAX_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "BA_2024:cc:000024",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000152",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000155",
+      "doc_id": "BA_2024",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BA_2024:cc:000158",
+      "doc_id": "BA_2024",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000025",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000054",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000081",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000122",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000167",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000235",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000247",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000257",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000274",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "BKR_2023:cc:000281",
+      "doc_id": "BKR_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000062",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000115",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CBRE_2023:cc:000282",
+      "doc_id": "CBRE_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "CF_2022:cc:000042",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000070",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000100",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000137",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000149",
+      "doc_id": "CF_2022",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000165",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000197",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000250",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000267",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000275",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000297",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "CF_2022:cc:000298",
+      "doc_id": "CF_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000053",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000075",
+      "doc_id": "COF_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000102",
+      "doc_id": "COF_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000113",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000184",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000228",
+      "doc_id": "COF_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000243",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000266",
+      "doc_id": "COF_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COF_2020:cc:000296",
+      "doc_id": "COF_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "COP_2012:cc:000000",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000096",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000161",
+      "doc_id": "COP_2012",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "COP_2012:cc:000235",
+      "doc_id": "COP_2012",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000006",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000021",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000079",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000094",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000125",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000138",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000198",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000204",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000259",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DECK_2021:cc:000281",
+      "doc_id": "DECK_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000005",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000006",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000011",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000016",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000023",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "DTE_2020:cc:000072",
+      "doc_id": "DTE_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000026",
+      "doc_id": "FE_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000046",
+      "doc_id": "FE_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000060",
+      "doc_id": "FE_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000074",
+      "doc_id": "FE_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000130",
+      "doc_id": "FE_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000157",
+      "doc_id": "FE_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000167",
+      "doc_id": "FE_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000197",
+      "doc_id": "FE_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "FE_2023:cc:000202",
+      "doc_id": "FE_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "F_2024:cc:000159",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000169",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000189",
+      "doc_id": "F_2024",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000222",
+      "doc_id": "F_2024",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "F_2024:cc:000269",
+      "doc_id": "F_2024",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000002",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000045",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000065",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000135",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000178",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GEV_2023:cc:000229",
+      "doc_id": "GEV_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000027",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000056",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000100",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000148",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000161",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000162",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000176",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000225",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "GOOGL_2024:cc:000258",
+      "doc_id": "GOOGL_2024",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000054",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000058",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000066",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000103",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000186",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000192",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000205",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "HPQ_2020:cc:000289",
+      "doc_id": "HPQ_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000015",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000029",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000119",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000147",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000156",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000188",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000206",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000226",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000292",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "IPG_2021:cc:000294",
+      "doc_id": "IPG_2021",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000070",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000101",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000110",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000112",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000143",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000190",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000208",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000229",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000236",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JCI_2020:cc:000292",
+      "doc_id": "JCI_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Industrials"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000012",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000016",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000031",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000034",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000044",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000050",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNJ_2023:cc:000052",
+      "doc_id": "JNJ_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000035",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000116",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000145",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000178",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000195",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000265",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "JNPR_2023:cc:000290",
+      "doc_id": "JNPR_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000029",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000033",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000034",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000035",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000043",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000045",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000087",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000094",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000106",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000117",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000118",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KEYS_2022:cc:000120",
+      "doc_id": "KEYS_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Information Technology"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000003",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000028",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000063",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000113",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000147",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000197",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000205",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "KMI_2023:cc:000271",
+      "doc_id": "KMI_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Energy"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000004",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000024",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000079",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000175",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "LLY_2013:cc:000293",
+      "doc_id": "LLY_2013",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Health Care"
+    },
+    {
+      "instance_id": "MS_2023:cc:000103",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000162",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000172",
+      "doc_id": "MS_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000205",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000214",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000236",
+      "doc_id": "MS_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000257",
+      "doc_id": "MS_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000271",
+      "doc_id": "MS_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000274",
+      "doc_id": "MS_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "MS_2023:cc:000276",
+      "doc_id": "MS_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000047",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000075",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000079",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000087",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000116",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000235",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NEM_2020:cc:000278",
+      "doc_id": "NEM_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Materials"
+    },
+    {
+      "instance_id": "NI_2022:cc:000119",
+      "doc_id": "NI_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "NI_2022:cc:000124",
+      "doc_id": "NI_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "NI_2022:cc:000222",
+      "doc_id": "NI_2022",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Utilities"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000031",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000070",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000221",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "NKE_2004:cc:000258",
+      "doc_id": "NKE_2004",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000033",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000059",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000073",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000101",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000104",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000176",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000199",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PLD_2008:cc:000204",
+      "doc_id": "PLD_2008",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "PM_2023:cc:000203",
+      "doc_id": "PM_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000239",
+      "doc_id": "PM_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000254",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "PM_2023:cc:000259",
+      "doc_id": "PM_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "REG_2020:cc:000014",
+      "doc_id": "REG_2020",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000019",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000077",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000094",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "REG_2020:cc:000123",
+      "doc_id": "REG_2020",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Real Estate"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000002",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000005",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000007",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000016",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000039",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000052",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000070",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000072",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000076",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000084",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000092",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000101",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000175",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000181",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000196",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000214",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000215",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000236",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000241",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000244",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "SPGI_2023:cc:000261",
+      "doc_id": "SPGI_2023",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Financials"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000048",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000144",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000179",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000180",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000241",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000257",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000272",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000283",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000291",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_FINAL_REVIEW_CLEAN",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "TSN_2019:cc:000295",
+      "doc_id": "TSN_2019",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000015",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000128",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000169",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "VZ_2022:cc:000190",
+      "doc_id": "VZ_2022",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Communication Services"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000162",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000277",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "KEEP_SUPPORTED_CLEAN",
+      "sector": "Consumer Staples"
+    },
+    {
+      "instance_id": "WMT_2008:cc:000288",
+      "doc_id": "WMT_2008",
+      "final_p3_status": "REPAIR_GOLD",
+      "sector": "Consumer Staples"
+    }
+  ]
+}

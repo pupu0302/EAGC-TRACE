@@ -1,0 +1,70 @@
+# Scoring contract used by the released offline evaluation.
+# This file records the metric definitions and required synthetic checks. It is
+# documentation and configuration provenance; the scorers do not parse it at
+# runtime.
+
+model_blindness:
+  rule: "The scoring function's control flow (branches, thresholds, K values, evidence-order rules) MUST NOT read model name, backbone name, provider name, or any historical score as an input. The function signature may accept a backbone/model LABEL purely for output bookkeeping (so a results table can say which row is which), but that label must never be read by any conditional inside the scoring logic itself."
+  static_scan_requirement: "The scoring implementation must not branch on model or provider identifiers."
+
+ecs_full_definition:
+  rule: "ECS_full is computed by the released production evaluator. Any evaluator change must be applied uniformly to every released prediction file, followed by a complete rerun and a documented evaluator-version change."
+
+unique_evidence_traversal_order:
+  rule: "For ECS@K, traverse the final predicted JSON's nodes array in array order without re-sorting, then traverse each node's evidence_sets[*].links array in array order. Concatenate evid_id values and skip repeated IDs after their first occurrence. The primary order is node-array position and the secondary order is link-array position; do not re-sort by evidence ID, pool type, or node type."
+  fixed_for_released_results: true
+
+ecs_strict_at_k_definition:
+  rule: "ECS_strict@K = 1 for an instance if and only if BOTH: (a) the instance's untruncated, complete predicted output passes the identical structural/validator gate used for ECS_full (valid JSON, schema-conformant nodes/edges/evidence_sets, node_type/edge_type fields present) — a K-truncation is applied only to the evidence citation list, never used to excuse a structurally invalid prediction; AND (b) the first K unique evidence IDs (per unique_evidence_traversal_order) fully cover at least one gold-admissible evidence set for that instance (i.e. the gold evidence-set membership check, unmodified from the production evaluator, run against only the first-K-unique-IDs subset instead of the full cited set). Otherwise 0. No partial credit, no bonus for additional correct citations beyond K, no bonus or penalty tied to model identity or output length."
+
+k_values:
+  reported: [1, 2, 3, "full"]
+  rule: "These are the complete K values reported for every released backbone. A different K set requires a new contract version applied uniformly to all backbones."
+
+failure_handling:
+  rule: "Every instance in the frozen 789-instance denominator that fails to produce a structurally valid graph (API failure after retries, unparseable JSON, schema-invalid output, or an evidence_sets/nodes graph that fails the production evaluator's basic well-formedness gate) is scored 0 for every K including 'full'. No complete-case deletion — the denominator is always 789 for every backbone, every K."
+
+citation_budget_reporting:
+  rule: "For every cell (method x backbone), mechanically report: mean, median, p25, p75, p90, min, max of the per-instance unique-evidence-count (the length of the deduplicated evid_id sequence from unique_evidence_traversal_order, uncapped by any K). All backbones use the identical computation; no backbone-specific truncation, binning, or outlier removal is applied before reporting these statistics."
+
+input_restrictions:
+  rule: "The scoring implementation may read only the released 789-instance manifest and task/gold files, prediction files matching that manifest's instance IDs, and the released evaluator and configuration. It must not read manuscript text, model/provider labels for scoring decisions, or external review records."
+
+freeze_and_versioning:
+  rule: "A change to the scoring definition requires a new contract version, a recorded diff, and a fresh run of every synthetic unit test below and all released prediction rows."
+
+cross_validation_requirement:
+  rule: "Released scores must be computed by two independent implementations: the production-evaluator path and a separately written reference implementation that reads the released manifest, predictions, gold, and this contract's definitions without importing the production evaluator. Their per-instance results for every K and their aggregate numerators and denominators must match exactly across all 789 instances. Any mismatch is a hard failure that must be resolved before reporting scores."
+
+synthetic_unit_tests:
+  # Each test constructs a minimal synthetic instance (fabricated evidence pool, gold
+  # evidence sets, and predicted output) -- no real task/gold/prediction data -- to
+  # exercise one rule in isolation. All must pass for the released scorer.
+  - id: T1_full_gold_set_cited
+    setup: "Predicted evidence citations for a node == exactly one complete gold-admissible evidence set."
+    expect: "ECS_full=1 for that instance; ECS@K=1 for every K >= the size of that gold set; ECS@K=0 for K below that size (unless a different, smaller admissible set is fully covered at that K)."
+  - id: T2_gold_evidence_cited_but_late
+    setup: "Predicted citations include all gold-set evid_ids, but only after several irrelevant evid_ids earlier in traversal order."
+    expect: "ECS_full=1 (order-independent). ECS@K for small K (before the gold IDs appear in traversal order) = 0. This tests that small-K correctly fails when gold evidence is buried, not just that full passes."
+  - id: T3_duplicate_evid_id
+    setup: "The same evid_id appears twice in the traversal (e.g. cited by two different nodes' evidence_sets)."
+    expect: "The duplicate does not consume an additional slot in the first-K-unique-IDs count and does not inflate the unique-evidence-count statistic; K-coverage is computed against the deduplicated sequence only."
+  - id: T4_many_irrelevant_extra_citations
+    setup: "Predicted output cites all correct gold evidence within the first K, plus dozens of additional irrelevant evid_ids appended afterward."
+    expect: "ECS@K for the reported K values is unchanged by the extra irrelevant citations (they appear after position K in traversal order and are irrelevant to any K <= their position); ECS_full is unaffected since gold coverage is presence-based, not exclusivity-based."
+  - id: T5_empty_or_failed_output
+    setup: "(a) empty prediction, (b) unparseable JSON, (c) valid JSON failing the structural validator gate."
+    expect: "All three score 0 for every K including full, and remain inside the fixed 789 denominator (not dropped)."
+  - id: T6_multiple_admissible_gold_sets
+    setup: "Gold defines two alternative admissible evidence sets for the same claim; prediction fully covers only the second one within the first K."
+    expect: "ECS@K=1 -- covering ANY one admissible set is sufficient, not all of them."
+  - id: T7_label_invariance
+    setup: "Run the identical prediction JSON through scoring twice, differing only in the backbone/model LABEL attached for bookkeeping (e.g. 'gpt-4o' vs 'claude-haiku-4-5-20251001' vs a placeholder string)."
+    expect: "Every per-instance 0/1 result, for every K, is byte-identical across the two runs. Any difference is a direct contract violation of model_blindness."
+  - id: T8_deterministic_repeatability
+    setup: "Run the released input set (manifest + predictions + gold + scoring code) through the scorer twice in a row, same machine, same code version."
+    expect: "Per-instance outputs and the aggregate summary hash are byte-identical between the two runs. Any difference indicates non-determinism (e.g. unordered dict/set iteration leaking into traversal order) that must be fixed before real scoring."
+
+enforcement:
+  versioning: "Any scoring-definition change requires a new version, an explicit diff, and a full rerun of all eight synthetic unit tests."
+  applicability: "The same scoring definition applies to all released predictions and backbones."

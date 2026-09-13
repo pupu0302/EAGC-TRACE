@@ -1,0 +1,200 @@
+version: "v1.0"
+notes:
+  - "Lexicon for ESG report auditability proxies (definition grounding + assurance + numeric grounding)."
+  - "Keep changes append-only; do not rename keys to ensure reproducibility."
+
+# -------------------------
+# A. Numeric / units / years
+# -------------------------
+numeric:
+  # A lightweight regex to flag presence of numbers (integers/decimals, optional commas, optional %)
+  number_regex: "(?<!\\w)(?:\\d{1,3}(?:,\\d{3})+|\\d+)(?:\\.\\d+)?%?(?!\\w)"
+  # Year mentions: 19xx/20xx
+  year_regex: "(?<!\\d)(?:19\\d{2}|20\\d{2})(?!\\d)"
+  # Common ESG unit tokens for rough "unit mention" counts (case-insensitive match)
+  unit_tokens:
+    # climate / energy
+    - "tco2e"
+    - "co2e"
+    - "mtco2e"
+    - "ktco2e"
+    - "ghg"
+    - "scope 1"
+    - "scope 2"
+    - "scope 3"
+    - "mwh"
+    - "kwh"
+    - "gj"
+    - "mj"
+    - "kw"
+    - "mw"
+    - "renewable"
+    - "renewables"
+    - "emissions"
+    - "carbon"
+    - "net zero"
+    - "net-zero"
+    # water / waste
+    - "m3"
+    - "cubic meter"
+    - "cubic metres"
+    - "litre"
+    - "liter"
+    - "gallon"
+    - "waste"
+    - "recycled"
+    - "recycling"
+    - "landfill"
+    # safety / people
+    - "injury"
+    - "ltifr"
+    - "trir"
+    - "fatality"
+    - "turnover"
+    # generic ratios
+    - "per cent"
+    - "percent"
+    - "%"
+
+# -------------------------
+# B. Standards / frameworks
+# -------------------------
+standards:
+  # Each entry defines a boolean or count feature by matching keywords/regex
+  gri:
+    keywords: ["gri", "global reporting initiative"]
+  sasb:
+    keywords: ["sasb", "sustainability accounting standards board"]
+  tcfd:
+    keywords: ["tcfd", "task force on climate-related financial disclosures", "task force on climate related financial disclosures"]
+  cdp:
+    keywords: ["cdp", "carbon disclosure project"]
+  un_sdg:
+    keywords: ["sdg", "sustainable development goal", "sustainable development goals", "un sdg", "united nations sdg"]
+  ghg_protocol:
+    keywords: ["ghg protocol", "greenhouse gas protocol"]
+
+# -------------------------
+# C. Methodology / boundary / restatement
+# -------------------------
+methodology:
+  has_methodology_section:
+    keywords:
+      - "methodology"
+      - "basis of preparation"
+      - "basis of reporting"
+      - "reporting methodology"
+      - "calculation methodology"
+      - "calculation method"
+      - "measurement methodology"
+      - "data methodology"
+      - "data boundary"
+      - "reporting boundary"
+      - "organizational boundary"
+      - "operational boundary"
+      - "emissions boundary"
+      - "assumptions"
+      - "definitions"
+      - "glossary"
+  # Scope mentions (definition grounding proxy)
+  scope_1:
+    keywords: ["scope 1", "scope i"]
+  scope_2:
+    keywords: ["scope 2", "scope ii"]
+  scope_3:
+    keywords: ["scope 3", "scope iii"]
+  restatement:
+    keywords:
+      - "restated"
+      - "re-stated"
+      - "revised"
+      - "recalculated"
+      - "updated baseline"
+      - "baseline updated"
+      - "correction"
+      - "corrected"
+
+# -------------------------
+# D. Assurance / verification signals
+# -------------------------
+assurance:
+  # Base assurance indicators
+  assurance:
+    keywords:
+      - "assurance"
+      - "independent assurance"
+      - "third party assurance"
+      - "third-party assurance"
+      - "external assurance"
+      - "assured by"
+      - "assurance statement"
+  limited_assurance:
+    keywords: ["limited assurance"]
+  reasonable_assurance:
+    keywords: ["reasonable assurance"]
+
+  # Named standards (stronger evidence)
+  isae_3000:
+    keywords: ["isae 3000"]
+  aa1000:
+    keywords: ["aa1000", "aa1000as", "aa1000 assurance standard"]
+  iso_14064:
+    keywords: ["iso 14064"]
+  iso_14001:
+    keywords: ["iso 14001"]
+  iso_45001:
+    keywords: ["iso 45001"]
+  sox:
+    keywords: ["sarbanes-oxley", "sox"]
+
+# -------------------------
+# E. Table-side heuristics
+# -------------------------
+tables:
+  # tokens that often appear in headers/captions indicating units or years
+  header_year_regex: "(?<!\\d)(?:19\\d{2}|20\\d{2})(?!\\d)"
+  header_unit_tokens:
+    - "tco2e"
+    - "co2e"
+    - "mwh"
+    - "kwh"
+    - "gj"
+    - "mj"
+    - "usd"
+    - "$"
+    - "%"
+    - "ton"
+    - "tons"
+    - "metric ton"
+    - "litre"
+    - "liter"
+    - "m3"
+  # numeric cell detection (table cell text)
+  cell_numeric_regex: "^(?:\\s*[-+]?\\d{1,3}(?:,\\d{3})*(?:\\.\\d+)?\\s*%?\\s*)$"
+
+# -------------------------
+# F. Auditability index definition
+# -------------------------
+auditability_index:
+  # Components are z-scored (within corpus) then aggregated
+  components:
+    audit_textual_def:
+      features:
+        - "standards_count"
+        - "scope_mentions_count"
+        - "methodology_mentions_count"
+        - "restatement_mentions_count"
+    audit_assurance:
+      features:
+        - "assurance_mentions_count"
+        - "assurance_named_standards_count"
+    audit_numeric:
+      features:
+        - "pct_sentences_with_number"
+        - "unit_mentions_per_1k_sentences"
+        - "pct_cells_numeric"
+    audit_table_structure:
+      features:
+        - "tables_per_1k_sentences"
+        - "cells_per_table"
+  aggregate: "mean"   # alternatives: "sum", "pca1" (if you later add sklearn)

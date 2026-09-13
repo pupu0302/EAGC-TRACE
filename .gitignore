@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+reproduce/_reproduction_output/
+.pytest_cache/
+.venv/
+venv/
+.coverage
+htmlcov/
+outputs/
+reproduced_results/
